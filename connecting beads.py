@@ -53,7 +53,7 @@ def draw():
         number+=1
     for l in lines:
         screen.draw.line(l[0],l[1],"blue")
-    if next < 10:
+    if next < 7:
         total = time()-start
         total = round(total,1)
         screen.draw.text(str(total),(20,20))
@@ -67,7 +67,6 @@ def draw():
     if win == True:
         screen.fill("green")
         screen.draw.text("YOU WIN",(350,250),color="pink",fontsize=70)
-        rbw.draw()
 
 def update():
     pass
