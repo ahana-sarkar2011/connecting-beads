@@ -46,7 +46,7 @@ beads.append(pib)
 def draw():
     global total
     global win
-    #screen.blit("background",(0,0))
+    screen.fill("black")
     number=1
     for i in beads:
         i.draw()
